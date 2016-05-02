@@ -392,7 +392,7 @@ textarea {
   color: #404040;
   font-family: sans-serif;
   font-size: 16px;
-  font-size: 1.6rem;
+  font-size: 1.9rem;
   line-height: 1.5;
 }
 
@@ -3127,6 +3127,9 @@ nav li {
   position: absolute;
   bottom: -35px;
 }
+
+/* CUSTOM CODE FOR INDIVIDUAL PAGES */
+
 body.page-bike-helmets .site-main:after, body.page-bike-helmets .site-main{
 	background: none;
 }
@@ -3181,7 +3184,6 @@ body.page-country img.greyscale {
 	width: 24%;
 	height: 24%;
 }
-/* body.page-country div.align { display: inline-block; } */
 
 /* Greyscale feature */
 
@@ -3211,6 +3213,8 @@ img.greyscale:hover {
   margin: 0.5%;
 	}
 }
+
+
 
 body.page-custom-helmets div.inline {
      display: inline-block;
