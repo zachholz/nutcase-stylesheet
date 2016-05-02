@@ -3356,11 +3356,11 @@ body.page-giving-tuesday p {
 
 .site-footer {
   position: relative;
-  padding: 45px 0 160px 0;
-  background-image: url("img/footer_grass.png"), url("img/flower.png");
+  padding: 45px 0 45px 0; /* with image, 45 0 160 0 */
+  /* background-image: url("img/footer_grass.png"), url("img/flower.png"); */
   background-repeat: repeat-x, no-repeat;
   background-position: bottom, 90% 72%;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.6rem;
 }
 .no-cssremunit .site-footer {
@@ -4786,7 +4786,7 @@ body.page-giving-tuesday p {
   background: white url("img/wood.png") center top;
   font-size: 1.8rem;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: lowercase;
   -webkit-font-smoothing: antialiased;
   border: 2px solid #d3d3d3;
   border-width: 2px 0;
