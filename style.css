@@ -2244,7 +2244,7 @@ nav li {
   background: #101010 url("img/wood.png") repeat center -7px;
   color: #ffffff;
   font-size: 1.4rem;
-  text-transform: uppercase;
+  text-transform: none;
   -webkit-font-smoothing: antialiased;
   box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.75);
 }
@@ -2377,7 +2377,7 @@ nav li {
   min-width: 470px;
   width: 74.25%;
   max-width: 754px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   text-align: right;
   white-space: nowrap;
 }
@@ -3469,7 +3469,7 @@ body.page-giving-tuesday p {
 .site-footer .menu {
   font-size: 1.7rem;
   line-height: 2;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .no-cssremunit .site-footer .menu {
   font-size: 17px;
@@ -3964,6 +3964,7 @@ body.page-giving-tuesday p {
   height: auto;
   width: 100%;
   min-height: 100%;
+  border-radius: 4%;
 }
 .lt-ie9 .front-page-grid .grid-item .article img {
   max-height: 100%;
@@ -4786,7 +4787,7 @@ body.page-giving-tuesday p {
   background: white url("img/wood.png") center top;
   font-size: 1.8rem;
   line-height: 1;
-  text-transform: lowercase;
+  text-transform: none;
   -webkit-font-smoothing: antialiased;
   border: 2px solid #d3d3d3;
   border-width: 2px 0;
